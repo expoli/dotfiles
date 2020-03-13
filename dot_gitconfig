@@ -63,7 +63,8 @@ autostash = true
 autosquash = true
 
 [user]
-name = Maxim Baz
+	name = expoli
 useConfigOnly = true
+	email = me@expoli.tech
 
 # vim:ft=ini
