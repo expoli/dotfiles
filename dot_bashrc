@@ -79,11 +79,12 @@ export INPUTRC=~/.inputrc
 # Extend path
 export PATH=$PATH:~/.scripts
 # Favorite editor
-export EDITOR=micro
+export VISUAL=vim
+export EDITOR="$VISUAL"
 # XDG config home
 export XDG_CONFIG_HOME="$HOME/.config"
 # Fix gruvbox color bug
-source ~/.vim/gruvbox_256palette.sh
+# source ~/.vim/gruvbox_256palette.sh
 
 
 # Helper functions to print colored
